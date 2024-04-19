@@ -1,9 +1,9 @@
 
-resource "aws_instance" "web"{
-ami = "ami-0b9932f4918a00c4f"
-instance_type = "t3.micro"
+resource "aws_instance" "web" {
+  ami           = "ami-0c1c30571d2dae5c9"
+  instance_type = "t2.small"
 
-tags = {
-    Name = "StayBlessed"
-}
+  tags = {
+    Name = "HappyTogether"
+  }
 }
